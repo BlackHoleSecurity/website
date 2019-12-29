@@ -8,7 +8,7 @@
         <meta charset="UTF-8">
         <meta name="description" content="" />
         <meta name="keywords" content="" />
-        <meta name="author" content="M Fikri Setiadi" />
+        <meta name="author" content="BHSec" />
         <meta name="robots" content="noindex, nofollow">
         <link rel="shortcut icon" href="<?php echo base_url() .
             'assets/images/favicon.png'; ?>">
@@ -54,7 +54,7 @@
                     <div class="row">
                         <div class="col-md-3 center">
                             <div class="login-box">
-                                <a href="#" class="logo-name text-lg text-center">MBLOG</a>
+                                <a href="#" class="logo-name text-lg text-center">BHSec</a>
                                 <p class="text-center m-t-md">Please login into your account.</p>
                                 <?php echo $this->session->flashdata('msg'); ?>
                                 <form class="m-t-md" action="<?php echo site_url(
@@ -71,7 +71,7 @@
                                 </form>
                                 <p class="text-center m-t-xs text-sm"><?php echo date(
                                     'Y'
-                                ); ?> &copy; Mblog by M Fikri.</p>
+                                ); ?> &copy; BHSec Application.</p>
                             </div>
                         </div>
                     </div><!-- Row -->

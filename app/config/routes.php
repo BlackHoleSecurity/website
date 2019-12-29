@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -50,16 +50,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'home';
-$route['blog/(:any)']='blog/detail/$1';
-$route['blog/page/(:any)']='blog/index/$1';
-$route['send_comment']='blog/submit_komentar';
-$route['subscribe']='blog/subscribe';
-$route['category/(:any)']='category/detail/$1';
-$route['category/(:any)/(:num)']='category/detail/$1/$2';
-$route['tag/(:any)']='tag/detail/$1';
-$route['tag/(:any)/(:num)']='tag/detail/$1/$2';
-$route['search']='result/search/';
-$route['administrator']='backend/login';
-$route['logout']='backend/login/logout';
+$route['blog/(:any)'] = 'blog/detail/$1';
+$route['blog/page/(:any)'] = 'blog/index/$1';
+$route['send_comment'] = 'blog/submit_komentar';
+$route['subscribe'] = 'blog/subscribe';
+$route['category/(:any)'] = 'category/detail/$1';
+$route['category/(:any)/(:num)'] = 'category/detail/$1/$2';
+$route['tag/(:any)'] = 'tag/detail/$1';
+$route['tag/(:any)/(:num)'] = 'tag/detail/$1/$2';
+$route['search'] = 'result/search/';
+$route['administrator'] = 'backend/login';
+$route['logout'] = 'backend/login/logout';
 $route['404_override'] = '';
-$route['translate_uri_dashes'] = FALSE;
+$route['translate_uri_dashes'] = false;
