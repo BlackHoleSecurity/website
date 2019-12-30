@@ -27,7 +27,7 @@ class Result extends CI_Controller
         $result = $this->blog_model->search_blog($query);
         if ($result->num_rows() > 0) {
             $x['data'] = $result;
-            $x['judul'] = 'Hasil Pencarian :' . ' "' . $query . '"';
+            $x['judul'] = 'Hasil Pencarian : "' . $query . '"';
         } else {
             $x['data'] = $result;
             $x['judul'] = 'Hasil Pencarian : "Tidak Temukan"';
