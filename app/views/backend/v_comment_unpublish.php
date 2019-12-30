@@ -423,7 +423,6 @@
     $row->comment_status == '0'
 ) {
     echo "<span class='label label-danger'>Unpublish</span>";
-} else {
 } ?>
                                                 <div style="margin-left: 6.5%;">
                                                     <p><?php echo $row->comment_message; ?></p>
