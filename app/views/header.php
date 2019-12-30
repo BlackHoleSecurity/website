@@ -1,4 +1,19 @@
-	<header>
+    <header>
+<!--
+ _________________________________________ 
+/ JFTCAZTJMZ2HSIDNNFWGY2LPNYQHAZLPOBWGKID \
+| TMF4SAYJAMZXW63DJONUCA5DINFXGOLBANF2C   |
+| O4ZAON2GS3DMEBQSAZTPN5WGS43IEB2GQ2LOM4X |
+\ AUCIJFUWSAQTFOJ2HEYLOMQQFE5LTONSWY3AK   /
+ ----------------------------------------- 
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+-->
+
 		<div class="bg-191">
 			<div class="container">	
 				<div class="oflow-hidden color-ash font-9 text-sm-center ptb-sm-5">
